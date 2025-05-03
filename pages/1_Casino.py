@@ -8,7 +8,6 @@ backgroundColor= "#000000"
 left, middle, right = st.columns(3)
  
 if st.button("Крутить"):
-  time.sleep(1)
   x = random.randint(1,3)
   left.write(x)
   y = random.randint(1,3)
